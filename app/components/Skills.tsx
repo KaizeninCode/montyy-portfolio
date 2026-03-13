@@ -39,7 +39,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="flex-1 max-w-5xl gap-4 mx-auto w-screen flex flex-col justify-center items-center font-bitter rounded-3xl"
+      className="flex-1 max-w-5xl gap-4 mx-auto w-screen flex flex-col justify-center items-center font-bitter rounded-3xl h-screen scroll-snap-start"
     >
       <div className="flex justify-center items-center mt-8">
         <div className="grid md: grid-cols-6 lg:grid-cols-12 gap-4">

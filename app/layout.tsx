@@ -13,8 +13,8 @@ const libreBaskerville = Libre_Baskerville({
 });
 
 export const metadata: Metadata = {
-  title: "Philip Wekullo Portfolio",
-  description: "A full stack web and mobile software developer",
+  title: "Philip Wekullo",
+  description: "A full stack software developer",
 };
 
 export default function RootLayout({

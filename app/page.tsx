@@ -5,10 +5,10 @@ import Skills from "./components/Skills";
 
 const Home = () => {
   return (
-    <main>
+    <main className="scroll-snap-y scroll-snap-mandatory min-h-screen">
       <Hero />
-      <About />
-      <Skills />
+      {/* <About /> */}
+      {/* <Skills /> */}
     </main>
   );
 };
