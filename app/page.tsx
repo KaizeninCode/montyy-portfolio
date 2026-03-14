@@ -4,6 +4,8 @@ import Showcase from "./sections/Showcase";
 import FeatureCards from "./sections/FeatureCards";
 import Experience from "./sections/Experience";
 import LogoSection from "./sections/LogoSection";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 
 const Home = () => {
@@ -15,6 +17,8 @@ const Home = () => {
       <FeatureCards />
       <Experience />
       <LogoSection />
+      <Contact />
+      <Footer />
       
     </main>
   );

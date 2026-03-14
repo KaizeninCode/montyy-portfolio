@@ -20,7 +20,7 @@ const LogoIcon = ({ icon }: LogoIconProps) => {
 
 const LogoSection = () => {
   return (
-    <div className="md:my-20 my-10 relative">
+    <div className="md:my-20 my-10 relative" id="skills">
       <div className="gradient-edge" />
       <div className="gradient-edge" />
 

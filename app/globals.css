@@ -207,7 +207,7 @@ body {
   }
 
   .cta-button {
-    @apply px-4 py-4 rounded-lg flex justify-center items-center relative cursor-pointer overflow-hidden;
+    @apply px-4 py-4 border-1 rounded-lg flex justify-center items-center relative cursor-pointer overflow-hidden;
 
     .bg-circle {
       @apply absolute -right-10 origin-center top-1/2 -translate-y-1/2 
@@ -285,7 +285,7 @@ body {
 
     input,
     textarea {
-      @apply w-full px-4 py-4 md:text-base text-sm placeholder:text-blue-50 bg-blue-100 rounded-md;
+      @apply w-full px-4 py-4 md:text-base text-sm placeholder:text-slate-400 text-black bg-blue-100 rounded-md;
     }
 
     a {
