@@ -13,7 +13,10 @@ function Particles() {
     () => (Math.random() - 0.5) * 20,
   );
 
-  useFrame(() => (points.current.rotation.y += 0.001));
+  useFrame(() => {
+    points.current.rotation.y += 0.001;
+    points.current.rotation.x += 0.001;
+  });
 
   return (
     <points ref={points}>
@@ -24,7 +27,7 @@ function Particles() {
           args={[positions, 3]}
         />
       </bufferGeometry>
-      <pointsMaterial size={0.03} color="#ff0000" />
+      <pointsMaterial size={0.03} color="#fff" />
     </points>
   );
 }
