@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className="border-t w-full">
-        <div className="flex items-center mx-auto">
+        <div className="flex items-center mx-auto mt-4">
             <h1 className='text-xl'>&copy; Philip Wekullo {new Date().getFullYear()}</h1>
         </div>
       </div>
