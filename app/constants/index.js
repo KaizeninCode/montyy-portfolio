@@ -11,10 +11,7 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+  
 ];
 
 const words = [
@@ -37,37 +34,49 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/logos/angular.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/images/logos/dart.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/images/logos/express.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "/images/logos/flask.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "/images/logos/flutter.png",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: "/images/logos/github.png",
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
+    imgPath: "/images/logos/gitlogo.jpg",
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
+    imgPath: "/images/logos/js.png",
   },
   {
-    imgPath: "/images/logos/company-logo-9.png",
+    imgPath: "/images/logos/mongo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: "/images/logos/mql5logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/images/logos/node.png",
+  },
+  {
+    imgPath: "/images/logos/python.jpg",
+  },
+  {
+    imgPath: "/images/logos/react.png",
+  },
+  {
+    imgPath: "/images/logos/sql.png",
+  },
+  {
+    imgPath: "/images/logos/ts.png",
   },
 ];
 
@@ -147,41 +156,65 @@ const techStackImgs = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    review: "Philip\'s contributions to our web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    imgPath: "/images/logos/freelance.jpg",
+    logoPath: "/images/logos/freelance.jpg",
+    title: "Freelance Full Stack Developer",
+    date: "January 2019 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
+      "Led the development of various web applications, focusing on scalability.",
+      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
+    ],
+  },
+  {
+    review: "Philip\'s work on AA Kenya\'s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    imgPath: "/images/logos/logo1.png",
+    logoPath: "/images/logos/logo1.png",
+    title: "Flutter Developer",
+    date: "June 2025 - December 2025",
+    responsibilities: [
+      "Built cross-platform mobile apps using Flutter, integrating with AA Kenya\'s existing services.",
+      "Improved app performance and user experience through code optimization and testing.",
+      "Coordinated with the product team to implement features based on feedback.",
+    ],
+  },
+  {
+    review: "Philip brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    imgPath: "/images/logos/logo1.png",
+    logoPath: "/images/logos/logo1.png",
+    title: "Frontend Developer",
+    date: "June 2025 - December 2025",
+    responsibilities: [
+      "Developed and maintained user-facing features for AA Kenya mobile apps and internal systems.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
       "Optimized web applications for maximum speed and scalability.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    review: "Philip brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    imgPath: "/images/logos/logo2.png",
+    logoPath: "/images/logos/logo2.png",
+    title: "IT Support Officer",
+    date: "June 2024 - November 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed and maintained user-facing features for AA Kenya mobile apps and internal systems.",
+      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
+      "Optimized web applications for maximum speed and scalability.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review: "Philip brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    imgPath: "/images/logos/logo3.png",
+    logoPath: "/images/logos/logo3.png",
+    title: "Intern, Central Operations Department",
+    date: "June 2022 - August 2022",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Collaborated with other team members in the bank's digitization project.",
+      "Contributed to a 40% increase in the completion of the digitization project.",
+      "Optimized digitization project workflow for maximum speed and scalability.",
     ],
   },
+  
 ];
 
 const expLogos = [

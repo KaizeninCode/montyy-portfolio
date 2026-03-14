@@ -2,6 +2,8 @@ import NavBar from "./components/NavBar";
 import Hero from "./sections/Hero";
 import Showcase from "./sections/Showcase";
 import FeatureCards from "./sections/FeatureCards";
+import Experience from "./sections/Experience";
+import LogoSection from "./sections/LogoSection";
 
 
 const Home = () => {
@@ -11,8 +13,9 @@ const Home = () => {
       <Hero />
       <Showcase />
       <FeatureCards />
-      {/* <About /> */}
-      {/* <Skills /> */}
+      <Experience />
+      <LogoSection />
+      
     </main>
   );
 };
