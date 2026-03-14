@@ -231,7 +231,7 @@ body {
   }
 
   .card-border {
-    @apply border border-red-50 bg-black;
+    @apply shadow-md shadow-slate-500 bg-black;
   }
 
   .marquee-item {

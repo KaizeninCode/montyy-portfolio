@@ -1,9 +1,8 @@
-import React from "react";
+import NavBar from "./components/NavBar";
 import Hero from "./sections/Hero";
 import Showcase from "./sections/Showcase";
-import NavBar from "./components/NavBar";
-import About from "./sections/About";
-import Skills from "./sections/Skills";
+import FeatureCards from "./sections/FeatureCards";
+
 
 const Home = () => {
   return (
@@ -11,6 +10,7 @@ const Home = () => {
       <NavBar />
       <Hero />
       <Showcase />
+      <FeatureCards />
       {/* <About /> */}
       {/* <Skills /> */}
     </main>
