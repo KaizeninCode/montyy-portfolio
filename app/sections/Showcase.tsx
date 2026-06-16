@@ -50,11 +50,11 @@ const Showcase = () => {
             </div>
             <div className="text-content ">
               <h2>
-                Financial market analysis made simple with a powerful, user-friendly app
-                called Kaizen Insights
+                Bible indulgence made simple with a powerful, user-friendly app
+                called Elevate
               </h2>
               <p className="text-red-100 md:text-xl">
-                An app built with React.js, Next.js, & Tailwind CSS for a fast,
+                An app built with React Native, Express.js, & NativeWind for a fast,
                 user-friendly experiences.
               </p>
             </div>
@@ -65,13 +65,13 @@ const Showcase = () => {
               <div className="image-wrapper bg-[#ffefdb]">
                 <img src="/images/project2.png" alt="Library Management" />
               </div>
-              <h2>Music Producer Store & Portfolio</h2>
+              <h2>Montayyne Music - Music Producer Store & Portfolio</h2>
             </div>
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
                 <img src="/images/project3.png" alt="YC Directory" />
               </div>
-              <h2>Benaiah Security - A visitor management platform.</h2>
+              <h2>Montyy Fx - A web application through which various SaaS products are offered for sale.</h2>
             </div>
           </div>
         </div>
